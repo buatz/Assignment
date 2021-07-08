@@ -6,7 +6,7 @@ const Profile = () =>{
     return(
         <SafeAreaView style={{flex:1}} >
             <View style={{flex:1}}>
-               <View style={{paddingHorizontal:20,flex:1.1,borderBottomLeftRadius:25,borderBottomRightRadius:25,shadowColor:'#D6E0E4',shadowRadius:30,shadowOpacity:0.8,shadowOffset:{width:0,height:7}}}>
+               <View style={{paddingHorizontal:20,flex:1.1,backgroundColor:'white',borderBottomLeftRadius:25,borderBottomRightRadius:25,shadowColor:'#D6E0E4',shadowRadius:30,shadowOpacity:0.8,shadowOffset:{width:0,height:7}}}>
                     <View style={{justifyContent:'space-between',flexDirection:'row',marginTop:5}}>
                         <Ionicons name='arrow-back' size={24} color='#566D8D' />
                         <Entypo name='dots-two-vertical' size={25} color='#566D8D' />
